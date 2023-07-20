@@ -1,14 +1,108 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
- <meta charset="UTF-8">
- <title>메인 페이지</title>
-</head>
-<body>
-<nav>
-    <a href="/company/">company info</a>
-     <a href="/mysite/">product</a>
-</nav>
-<h1>메인 페이지입니다.</h1>
-</body>
-</html>
+{% extends 'base.html' %}
+{% block content %}
+<section id="banner">
+				<div class="inner">
+					<header>
+						<h1>BAKERY</h1>
+						<p>“품질과 다양성을 자랑하는 최상의 빵을 제공”</p>
+					</header>
+					<!--<a href="#main" class="button big scrolly">Learn More</a>-->
+				</div>
+			</section>
+		<div id="main">
+
+				<!-- Section -->
+					<section class="wrapper style1">
+						<div class="inner">
+							<!-- 2 Columns -->
+								<div class="flex flex-2">
+									<div class="col col1">
+										<div class="image round fit">
+											<a href="generic.html" class="link"><img src="templates/image/banner.jpg" alt="" /></a>
+										</div>
+									</div>
+									<div class="col col2">
+										<h3>“고품질, 창의성, 만족감을 추구하는 빵집으로 함께 성장하고 발전하고자 합니다”</h3>
+										<p>저희 빵집은 높은 품질과 창의성을 바탕으로 고객들에게 맛과 즐거움을 제공하는 회사입니다. 최상의 재료와 전문가들의
+열정과 기술로 매일 신선하고 맛있는 빵을 만들어내고 있습니다. 우리의 목표는 고객들에게 항상 만족감과 행복을 선사하는 것이며, 이를 위해 지속적인 혁신과 고객 중심의 서비스를 추구하고 있습니다. 저희 빵집은 더 나은 맛과 경험을 위해 노력하는 빵을 사랑하는 사람들과 함께 성장하고 발전하고자 합니다.</p>
+
+										<a href="#" class="button">더보기</a>
+								</div>
+								</div>
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section class="wrapper style2">
+						<div class="inner">
+							<div class="flex flex-2">
+								<div class="col col2">
+									<h3>"맛과 풍미가 가득한 빵의 세계로 여러분을 초대합니다"</h3>
+								</div>
+								<!--<div class="col col1 first">
+									<div class="image round fit">-->
+										<!--<a href="generic.html" class="link"><img src="" alt="" /></a>-->
+									</div>
+
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section class="wrapper style1">
+						<div class="inner">
+							<header class="align-center">
+								<h2>MENU</h2>
+								<p>“품질과 다양성을 자랑하는 최상의 빵을 제공”</p>
+							</header>
+							<div class="flex flex-3">
+								<div class="col align-center">
+									<div class="image round fit">
+										<img src="images/pic03.jpg" alt="" />
+									</div>
+									<p>호밀빵</p>
+									<a href="#" class="button">Learn More</a>
+								</div>
+								<div class="col align-center">
+									<div class="image round fit">
+										<img src="images/pic05.jpg" alt="" />
+									</div>
+									<p>머핀</p>
+									<a href="#" class="button">Learn More</a>
+								</div>
+								<div class="col align-center">
+									<div class="image round fit">
+										<img src="images/pic04.jpg" alt="" />
+									</div>
+									<p>크림롤</p>
+									<a href="#" class="button">Learn More</a>
+								</div>
+							</div>
+							<div class="flex flex-3">
+								<div class="col align-center">
+									<div class="image round fit">
+										<img src="images/pic03.jpg" alt="" />
+									</div>
+									<p>크루와상</p>
+									<a href="#" class="button">Learn More</a>
+								</div>
+								<div class="col align-center">
+									<div class="image round fit">
+										<img src="images/pic05.jpg" alt="" />
+									</div>
+									<p>샌드위치</p>
+									<a href="#" class="button">Learn More</a>
+								</div>
+								<div class="col align-center">
+									<div class="image round fit">
+										<img src="images/pic04.jpg" alt="" />
+									</div>
+									<p>브라우니</p>
+									<a href="#" class="button">Learn More</a>
+								</div>
+
+							</div>
+						</div>
+					</section>
+
+			</div>
+{% endblock %}
